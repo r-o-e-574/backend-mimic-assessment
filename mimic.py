@@ -51,7 +51,7 @@ def print_mimic(mimic_dict, start_word):
         - Repeat this process 200 times
     """
     start_word = random.choice(list(mimic_dict.keys()))
-    for i in range(500):
+    for i in range(200):
         print(start_word, end= " ")
         next_word_list = mimic_dict.get(start_word)
         if next_word_list is None:
