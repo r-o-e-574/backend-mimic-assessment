@@ -39,6 +39,7 @@ def create_mimic_dict(filename):
             else:
                 mimicDict[previousWord].append(word)
             previousWord = word
+    print(mimicDict)
     return mimicDict
 
 
